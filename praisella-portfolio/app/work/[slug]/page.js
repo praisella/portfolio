@@ -13,7 +13,13 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const c = getCase(slug);
   if (!c) return {};
-  return { title: `${c.company} — ${c.title} · Praisella Yosep`, description: c.summary };
+  const title = `${c.company} — ${c.title} · Praisella Yosep`;
+  return {
+    title,
+    description: c.summary,
+    openGraph: { title, description: c.summary, url: `/work/${c.slug}`, type: 'article' },
+    twitter: { card: 'summary_large_image', title, description: c.summary },
+  };
 }
 
 export default async function CasePage({ params }) {
