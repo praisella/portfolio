@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div>
             <h2 className="mono xsmall muted label">OFF THE CLOCK</h2>
-            <p>I run <a href="https://instagram.com/prais.mov" className="serif accent brand">Prais.MOV</a>, a content brand about discovering Seoul through dance — and co-run HeelsInSeoul, an English heels class for beginners.</p>
+            <p>I run <a href="https://instagram.com/prais.mov" className="serif accent brand">Prais.MOV</a>, a content brand about discovering Seoul through dance — and co-run HeelsInSeoul, an international heels dancer community based in Seoul.</p>
           </div>
         </section>
 
