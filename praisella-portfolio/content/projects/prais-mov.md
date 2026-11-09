@@ -13,7 +13,7 @@ line: A five-question quiz that recommends your first Seoul dance class — one 
 metric: ~120 users in the first 3 weeks, built in a day
 rot: 2deg
 hasCase: true
-headline: A dance-class quiz that gives one honest answer instead of a directory.
+headline: "A dance-class quiz that helps beginners find their first class in Seoul."
 summary: A mobile-first quiz that recommends which Seoul dance class to take first, written as if a dancer friend who knows the scene were telling you. Behind it is a hand-curated database of 25 teachers and 12 studios — I've taken class with every one of them.
 meta:
   - [Role, Owner]

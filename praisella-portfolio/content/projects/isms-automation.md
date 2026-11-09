@@ -13,7 +13,7 @@ line: Re-scoped a full custom build into a thin adopt-plus-AI layer that drafts 
 metric: First automated checks live and through user acceptance testing
 rot: -2deg
 hasCase: true
-headline: Cutting compliance admin by not building most of the system.
+headline: "An AI assistant that takes the manual work out of staying security-compliant."
 summary: An internal tool at NucleusBI that cuts the manual admin of maintaining a security certification. It pairs one compliance platform, used as the system of record, with a Claude-powered layer that drafts evidence and runs checks — and a person approves every change before it's written.
 meta:
   - [Role, Product Manager]

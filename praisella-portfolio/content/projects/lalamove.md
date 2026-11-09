@@ -13,7 +13,7 @@ line: Initiated and launched Fleet, a B2B channel for fleet companies — a new 
 metric: 13%+ of 4-wheel volume, steady 5% MoM growth
 rot: 2.5deg
 hasCase: true
-headline: Opening a new supply channel inside an established logistics company.
+headline: "A new B2B channel that brought in 13%+ of Lalamove's 4-wheel volume."
 summary: Lalamove is an on-demand logistics company connecting 7M users with drivers in 20 markets across Asia and Latin America. I was on the Driver Product team — solving driver-partner problems, expanding supply, and optimising driver-related internal processes.
 meta:
   - [Role, Product Manager]
@@ -35,7 +35,7 @@ Lalamove had built its last-mile model around individual drivers delivering for 
 
 ## Solution
 
-### Fleet: putting idle fleet capacity to work.
+### Putting idle fleet capacity to work.
 
 I initiated and launched the Fleet project. It taps an overlooked B2B segment: fleet companies with hundreds of drivers and vehicles, who can use their idle capacity to earn extra income through Lalamove.
 

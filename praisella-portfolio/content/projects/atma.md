@@ -13,7 +13,7 @@ line: Built the job-seeker app and job-provider web app from the ground up, focu
 metric: DAU 1k to 10k+, retention 40%+ after Academy
 rot: -1.5deg
 hasCase: true
-headline: First product hire at a chat-based job platform for blue-collar workers.
+headline: "A job platform for blue-collar workers that grew from 1k to 10k+ daily users."
 summary: Atma is a chat-based job platform built to educate and elevate the job-seeking experience for lower- and middle-income workers. Alongside the CPO, I set up the sprint and working process for Product & Engineering, and built features across the job-seeker app and job-provider web app from scratch.
 meta:
   - [Role, Senior Product Manager]

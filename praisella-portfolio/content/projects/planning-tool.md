@@ -13,7 +13,7 @@ line: Replaced a manual, Excel-based sprint workflow across two SaaS product lin
 metric: Sprint prep 1–2 hrs to under 10 min, adopted by 3 POs
 rot: 1.5deg
 hasCase: true
-headline: An AI-powered planning tool that made the Scrum Master optional.
+headline: "A sprint planning tool that cut prep from 1–2 hours to under 10 minutes."
 summary: Built from scratch to replace a manual, Excel-based sprint workflow across two SaaS product lines. Built solo, with AI as my development partner — live, adopted team-wide, and designed to run without me.
 meta:
   - [Role, Product Manager]
