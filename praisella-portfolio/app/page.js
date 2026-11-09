@@ -17,16 +17,16 @@ export default function Home() {
 
         <section id="about" className="about">
           <div>
-            <h2 className="mono xsmall muted label">PATH</h2>
+            <h2 className="label">Path</h2>
             <p>NucleusBI — Product Manager<br />Atma — Senior Product Manager<br />Lalamove — Product Manager<br />Origami Labs — Marketing → Product</p>
           </div>
           <div>
-            <h2 className="mono xsmall muted label">TOOLKIT</h2>
+            <h2 className="label">Toolkit</h2>
             <p>Jira, Confluence, Figma, Miro, Notion, Airtable, Amplitude<br />Claude, Supabase, Vercel — for building it myself</p>
           </div>
           <div>
-            <h2 className="mono xsmall muted label">OFF THE CLOCK</h2>
-            <p>I run <a href="https://instagram.com/prais.mov" className="serif accent brand">Prais.MOV</a>, a content brand about discovering Seoul through dance — and co-run HeelsInSeoul, an international heels dancer community based in Seoul.</p>
+            <h2 className="label">Off the clock</h2>
+            <p>I run <a href="https://instagram.com/prais.mov">Prais.MOV</a>, a content brand about discovering Seoul through dance — and co-run HeelsInSeoul, an international heels dancer community based in Seoul.</p>
           </div>
         </section>
 

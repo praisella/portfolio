@@ -5,7 +5,7 @@ company: Origami Labs
 title: Smart ring turned B2B comms
 tag: B2B, brief
 category: consumer
-year: → 2021
+year: Until 2021
 role: Marketing to Product
 cover: /images/origami-labs/cover.jpg
 alt: Hotel staff using the OFLO controller

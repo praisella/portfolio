@@ -1,24 +1,21 @@
+// Home-page highlights: a static row of numbers.
 const ITEMS = [
-  ['1k → 10k+', 'DAU AT ATMA'],
-  ['13%+', 'OF 4-WHEEL VOLUME VIA LALAMOVE FLEET'],
-  ['<10 min', 'SPRINT PREP, DOWN FROM 1–2 HRS'],
-  ['40%+', 'RETENTION AFTER ATMA ACADEMY'],
-  ['1 day', 'IDEA TO LIVE, PRAIS.MOV'],
+  ['1k → 10k+', 'Daily active users at Atma'],
+  ['13%+', 'Of 4-wheel volume via Lalamove Fleet'],
+  ['<10 min', 'Sprint prep, down from 1–2 hours'],
+  ['40%+', 'Retention after Atma Academy'],
+  ['1 day', 'Idea to live, Prais.MOV'],
 ];
 
 export default function Ticker() {
-  const all = [...ITEMS, ...ITEMS];
   return (
-    <section className="ticker" aria-label="Highlights">
-      <div className="ticker-track">
-        {all.map(([big, small], i) => (
-          <span className="tick" key={i} aria-hidden={i >= ITEMS.length ? 'true' : undefined}>
-            <span className="tick-big">{big}</span>
-            <span className="mono muted xsmall">{small}</span>
-            <span className="accent tick-star">✳</span>
-          </span>
-        ))}
-      </div>
-    </section>
+    <dl className="highlights" aria-label="Highlights">
+      {ITEMS.map(([big, small]) => (
+        <div key={small}>
+          <dt className="hl-big">{big}</dt>
+          <dd className="hl-small" style={{ margin: 0 }}>{small}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }

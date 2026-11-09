@@ -28,7 +28,11 @@ All text lives in `content/projects/` — one Markdown file per project. No code
 - **Images:** put them in `public/images/<project>/` and use `![description](/images/<project>/file.jpg)`. Put several images on one line to show them side by side.
 - **Order:** change `order:` in the top block. Set `hasCase: false` for a brief entry with no case page.
 
-Home-page copy (intro, ticker numbers, path, toolkit) is in `components/Hero.jsx`, `components/Ticker.jsx` and `app/page.js`. Colours and fonts are at the top of `app/globals.css` — the accent is `--accent`.
+Home-page copy (intro, ticker numbers, path, toolkit) is in `components/Hero.jsx`, `components/Ticker.jsx` and `app/page.js`. Colours are at the top of `app/globals.css` — the accent is `--accent`. The site uses one typeface, Instrument Sans, bundled with the site (imported in `app/layout.js`).
+
+## PDF version
+
+`/print` shows the whole portfolio (home plus every case study, all tabs open) laid out for A4. Open it in Chrome, Print → Save as PDF, margins Default, and tick Background graphics. It isn't linked from the site.
 
 ## Run locally (optional)
 

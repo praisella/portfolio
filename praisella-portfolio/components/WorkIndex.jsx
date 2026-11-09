@@ -18,13 +18,13 @@ export default function WorkIndex({ projects }) {
   return (
     <section id="work" className="work">
       <div className="work-head">
-        <h2 className="section-title">Selected <span className="serif accent">work</span></h2>
+        <h2 className="section-title">Selected work</h2>
         <div className="chips" role="group" aria-label="Filter projects">
           {FILTERS.map(([id, label]) => (
             <button
               key={id}
               type="button"
-              className={'chip mono' + (filter === id ? ' on' : '')}
+              className={'chip' + (filter === id ? ' on' : '')}
               aria-pressed={filter === id}
               onClick={() => setFilter(id)}
             >
@@ -40,17 +40,17 @@ export default function WorkIndex({ projects }) {
             const on = active && p.slug === active.slug;
             const inner = (
               <>
-                <span className="mono xsmall row-no">{on ? '→' : String(n + 1).padStart(2, '0')}</span>
+                <span className="row-no">{String(n + 1).padStart(2, '0')}</span>
                 <span className="row-main">
-                  <span className="mono xsmall muted">{p.company.toUpperCase()}</span>
                   <span className="row-title">{p.title}</span>
+                  <span className="row-company">{p.company}</span>
                   <span className="row-mobile">
                     <span>{p.line}</span>
                     <span className="accent">{p.metric}</span>
                   </span>
                 </span>
-                <span className="mono xsmall muted row-tag">{p.tag.toUpperCase()}</span>
-                <span className="mono xsmall muted row-year">{p.year}</span>
+                <span className="row-tag">{p.tag}</span>
+                <span className="row-year">{p.year}</span>
               </>
             );
             const props = {
@@ -72,14 +72,10 @@ export default function WorkIndex({ projects }) {
 
         {active && (
           <aside className="preview" aria-live="polite">
-            <div className="stack">
-              <div className="card c1" />
-              <div className="card c2" />
-              <div className="card top" style={{ transform: `rotate(${active.rot})` }}>
-                <img src={active.cover} alt={active.alt} />
-              </div>
+            <div className="preview-img">
+              <img src={active.cover} alt={active.alt} />
             </div>
-            <div className="mono xsmall muted preview-meta">
+            <div className="preview-meta">
               <span>{active.role}</span>
               <span>{active.year}</span>
             </div>
@@ -88,7 +84,7 @@ export default function WorkIndex({ projects }) {
             {active.hasCase ? (
               <Link href={`/work/${active.slug}`} className="tap strong">Read the case study →</Link>
             ) : (
-              <span className="mono xsmall muted">Brief entry</span>
+              <span className="small muted">Brief entry</span>
             )}
           </aside>
         )}

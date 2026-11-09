@@ -2,25 +2,25 @@ import Link from 'next/link';
 
 export default function Header({ home = true, position, total }) {
   return (
-    <header className="header mono">
+    <header className="header">
       {home ? (
-        <span className="wordmark">PRAISELLA YOSEP</span>
+        <span className="wordmark">Praisella Yosep</span>
       ) : (
-        <Link href="/#work" className="tap">← All work</Link>
+        <Link href="/#work" className="tap no-print">← All work</Link>
       )}
       {home ? (
-        <nav className="nav">
+        <nav className="nav no-print">
           <a href="#work">Work</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
       ) : (
-        <Link href="/" className="wordmark">PRAISELLA YOSEP</Link>
+        <Link href="/" className="wordmark">Praisella Yosep</Link>
       )}
       {home ? (
-        <span className="muted place"><span className="dot" />Seoul ⇄ Bali</span>
+        <span className="muted place">Seoul and Bali</span>
       ) : (
-        <span className="muted">CASE {String(position).padStart(2, '0')} / {String(total).padStart(2, '0')}</span>
+        <span className="muted">Case {position} of {total}</span>
       )}
     </header>
   );
